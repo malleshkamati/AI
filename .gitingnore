@@ -1,0 +1,29 @@
+# Ignore Python environments
+*.ipynb filter=lfs diff=lfs merge=lfs -text
+
+.venv/
+env/
+__pycache__/
+
+# Ignore Jupyter notebooks (if too big)
+*.ipynb
+
+# Ignore package folders
+node_modules/
+dist/
+build/
+
+# Ignore data files
+*.csv
+*.tsv
+*.xlsx
+*.zip
+*.tar
+*.gz
+
+# Ignore all files >100MB (only via Git LFS or manually managed)
+
+# VS Code & OS specific
+.vscode/
+.DS_Store
+Thumbs.db
